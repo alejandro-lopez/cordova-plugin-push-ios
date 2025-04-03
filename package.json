@@ -1,6 +1,6 @@
 {
-  "name": "@havesource/cordova-plugin-push",
-  "version": "5.0.6-dev.0",
+  "name": "cordova-plugin-push-ios",
+  "version": "5.0.6",
   "description": "Register and receive push notifications.",
   "scripts": {
     "build": "babel src/js --out-dir www",
@@ -68,9 +68,7 @@
   "cordova": {
     "id": "@havesource/cordova-plugin-push",
     "platforms": [
-      "ios",
-      "android",
-      "browser"
+      "ios"
     ]
   }
 }
