@@ -14,11 +14,11 @@
 
   <engines>
     <engine name="cordova" version=">=10.0.0"/>
-    <engine name="cordova-android" version=">=12.0.0"/>
+    <!--<engine name="cordova-android" version=">=12.0.0"/>-->
     <engine name="cordova-ios" version=">=6.0.0"/>
   </engines>
 
-  <platform name="android">
+  <!--<platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="PushNotification">
         <param name="android-package" value="com.adobe.phonegap.push.PushPlugin"/>
@@ -88,7 +88,7 @@
     <asset src="src/browser/manifest.json" target="manifest.json"/>
 
     <hook type="after_prepare" src="hooks/browser/updateManifest.js"/>
-  </platform>
+  </platform>-->
 
   <platform name="ios">
     <preference name="IOS_FIREBASE_MESSAGING_VERSION" default="10.24.0"/>
